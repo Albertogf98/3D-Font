@@ -47,7 +47,7 @@ function FormPage() {
             margin='normal'
             type="text"
             name="font"
-            label="Font"
+            label="Tipografía"
             value={font}
             onChange={handleChange}
             fullWidth
@@ -57,7 +57,7 @@ function FormPage() {
             margin='normal'
             type="text"
             name="height"
-            label="Height"
+            label="Alto"
             value={height}
             onChange={handleChange}
             fullWidth
@@ -67,7 +67,7 @@ function FormPage() {
             margin='normal'
             type="text"
             name="width"
-            label="Width"
+            label="Ancho"
             value={width}
             onChange={handleChange}
             fullWidth
